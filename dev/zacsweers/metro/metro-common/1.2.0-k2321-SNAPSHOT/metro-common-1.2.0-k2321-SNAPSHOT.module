@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.zacsweers.metro",
+    "module": "metro-common",
+    "version": "1.2.0-k2321-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "metro-common-1.2.0-k2321-SNAPSHOT.jar",
+          "url": "metro-common-1.2.0-k2321-SNAPSHOT.jar",
+          "size": 108648,
+          "sha512": "b89ad29c5c7073112857758de1418feded9d8dbaea1338276705a940db0b54307ef83ce890914ccfb7da260ba4a53566097b8e85f7a7e53c03dda4bfa8f27885",
+          "sha256": "aa5f127dd0d89d92fbb91d101f914313c1c73e8df04f9b182c7161446075b731",
+          "sha1": "bece02d03d74e14fa695609576ad1d8874346d1c",
+          "md5": "d4cf6e1bc2adcb1bbeca4bfb446741ad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "metro-common-1.2.0-k2321-SNAPSHOT.jar",
+          "url": "metro-common-1.2.0-k2321-SNAPSHOT.jar",
+          "size": 108648,
+          "sha512": "b89ad29c5c7073112857758de1418feded9d8dbaea1338276705a940db0b54307ef83ce890914ccfb7da260ba4a53566097b8e85f7a7e53c03dda4bfa8f27885",
+          "sha256": "aa5f127dd0d89d92fbb91d101f914313c1c73e8df04f9b182c7161446075b731",
+          "sha1": "bece02d03d74e14fa695609576ad1d8874346d1c",
+          "md5": "d4cf6e1bc2adcb1bbeca4bfb446741ad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "metro-common-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "url": "metro-common-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "size": 16322,
+          "sha512": "5625bc55d93d04892308f302fc560a57562918ad27bc54b21e642923c9b093c35afe4715f4f2907cf59ca6c3d5dd10b570f3919509b090f7deae5e660247be99",
+          "sha256": "5516f52805d3d44ac2bc14bc15fec26e371cc4fc94d08957c04b4ca4f2c97757",
+          "sha1": "d0fa29f5231cf805ad584f8af1af4d1bc025f7d7",
+          "md5": "5ced902ba37ebe5ea89ff03dbd9e7f0b"
+        }
+      ]
+    }
+  ]
+}

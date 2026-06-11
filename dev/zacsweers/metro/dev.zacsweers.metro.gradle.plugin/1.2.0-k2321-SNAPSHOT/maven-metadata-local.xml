@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>dev.zacsweers.metro</groupId>
+  <artifactId>dev.zacsweers.metro.gradle.plugin</artifactId>
+  <versioning>
+    <lastUpdated>20260611230758</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.0-k2321-SNAPSHOT</value>
+        <updated>20260611230758</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.2.0-k2321-SNAPSHOT</version>
+</metadata>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.zacsweers.metro</groupId>
+  <artifactId>dev.zacsweers.metro.gradle.plugin</artifactId>
+  <version>1.2.0-k2321-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Metro Gradle Plugin</name>
+  <description>A multiplatform, compile-time injection framework for Kotlin.</description>
+  <url>https://github.com/ZacSweers/metro/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zacsweers</id>
+      <name>Zac Sweers</name>
+      <url>https://zacsweers.dev</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ZacSweers/metro.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ZacSweers/metro.git</developerConnection>
+    <url>https://github.com/ZacSweers/metro/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.zacsweers.metro</groupId>
+      <artifactId>gradle-plugin</artifactId>
+      <version>1.2.0-k2321-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

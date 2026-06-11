@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.zacsweers.metro",
+    "module": "gradle-plugin",
+    "version": "1.2.0-k2321-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.plugin.api-version": "8.8",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradle-plugin-1.2.0-k2321-SNAPSHOT.jar",
+          "url": "gradle-plugin-1.2.0-k2321-SNAPSHOT.jar",
+          "size": 3787403,
+          "sha512": "bdf5d4534b66906435540299f3d19234f8cbc273feba9334ef9c3b8029311997a9d93433e57d462e7f61a221fc19b04d066c0401098984a2a8219895a7fdfcb1",
+          "sha256": "65e7b1fd426455274eb91bbf7e3476d37915ab982caf8debce0d69a7f6358a02",
+          "sha1": "782371a56d659351d8e2b51531861777fa468225",
+          "md5": "0f48fcdc7f6378abadb7c63b1ecff3f2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.plugin.api-version": "8.8",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zacsweers.metro",
+          "module": "metro-common",
+          "version": {
+            "requires": "1.2.0-k2321-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-plugin-1.2.0-k2321-SNAPSHOT.jar",
+          "url": "gradle-plugin-1.2.0-k2321-SNAPSHOT.jar",
+          "size": 3787403,
+          "sha512": "bdf5d4534b66906435540299f3d19234f8cbc273feba9334ef9c3b8029311997a9d93433e57d462e7f61a221fc19b04d066c0401098984a2a8219895a7fdfcb1",
+          "sha256": "65e7b1fd426455274eb91bbf7e3476d37915ab982caf8debce0d69a7f6358a02",
+          "sha1": "782371a56d659351d8e2b51531861777fa468225",
+          "md5": "0f48fcdc7f6378abadb7c63b1ecff3f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-plugin-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "url": "gradle-plugin-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "size": 71360,
+          "sha512": "20c3383949b715c54d1de0b3d5472f38220ea119728a971fba40603c93d558b7517ac6fd3c368e584221016a594c6b8d7d6a48ba45accd9c75e838775448f1a2",
+          "sha256": "3684fb32c6719bf78569d5d79721b67c9b453682d20580e528939d7fcc65ff8b",
+          "sha1": "f00c7aa2fda760beee221814005c9115fdb2d248",
+          "md5": "8923e622615367f910b5e1318d0217b8"
+        }
+      ]
+    }
+  ]
+}

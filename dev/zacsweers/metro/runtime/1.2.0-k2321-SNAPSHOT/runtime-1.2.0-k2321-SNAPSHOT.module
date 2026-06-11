@@ -1,0 +1,1157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.zacsweers.metro",
+    "module": "runtime",
+    "version": "1.2.0-k2321-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-metadata-1.2.0-k2321-SNAPSHOT.jar",
+          "url": "runtime-1.2.0-k2321-SNAPSHOT.jar",
+          "size": 52463,
+          "sha512": "549b91e6932da5a6624bcd4c093a044f2b7904f546914c31592c98f1cb576e6f90285eee7ec7fb5e2d486d2ac99d72b53834188fb5261ef050385ce3b949e350",
+          "sha256": "ebcad5570d2fda0f6ca487a9cf47aafbc2cb1618cd4e551a0c538554a56193f4",
+          "sha1": "c6cb862422e31958a2f14117485d16d8ec538103",
+          "md5": "135087e44befcd3ba6bf5d28b5105151"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "runtime-kotlin-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "url": "runtime-1.2.0-k2321-SNAPSHOT-sources.jar",
+          "size": 75610,
+          "sha512": "6f521cdaa88f24f1a3b39901b8913c5f1470aaca0ea7b2a49f1f99849f615bb360deb670be79797e7e022d3d1ff20c31ff7046d244aece1bdc34c2828b14bacd",
+          "sha256": "e09a34fdf9ad906540dfa66cb4443e349811581acbefe8c70a3c5ce108e5511d",
+          "sha1": "07280c898bec2fb3f3ae4020878d89ed62dfeacd",
+          "md5": "38a388c6fd31323568c137fc2b99b260"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativearm32/1.2.0-k2321-SNAPSHOT/runtime-androidnativearm32-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativearm32",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativearm32/1.2.0-k2321-SNAPSHOT/runtime-androidnativearm32-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativearm32",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativearm64/1.2.0-k2321-SNAPSHOT/runtime-androidnativearm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativearm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativearm64/1.2.0-k2321-SNAPSHOT/runtime-androidnativearm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativearm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativex64/1.2.0-k2321-SNAPSHOT/runtime-androidnativex64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativex64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativex64/1.2.0-k2321-SNAPSHOT/runtime-androidnativex64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativex64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativex86/1.2.0-k2321-SNAPSHOT/runtime-androidnativex86-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativex86",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-androidnativex86/1.2.0-k2321-SNAPSHOT/runtime-androidnativex86-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-androidnativex86",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosarm64/1.2.0-k2321-SNAPSHOT/runtime-iosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosarm64/1.2.0-k2321-SNAPSHOT/runtime-iosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosarm64/1.2.0-k2321-SNAPSHOT/runtime-iosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-iossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-iossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-iossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosx64/1.2.0-k2321-SNAPSHOT/runtime-iosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosx64/1.2.0-k2321-SNAPSHOT/runtime-iosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-iosx64/1.2.0-k2321-SNAPSHOT/runtime-iosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-iosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-js/1.2.0-k2321-SNAPSHOT/runtime-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-js/1.2.0-k2321-SNAPSHOT/runtime-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-js/1.2.0-k2321-SNAPSHOT/runtime-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../runtime-jvm/1.2.0-k2321-SNAPSHOT/runtime-jvm-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-jvm",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../runtime-jvm/1.2.0-k2321-SNAPSHOT/runtime-jvm-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-jvm",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../runtime-jvm/1.2.0-k2321-SNAPSHOT/runtime-jvm-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-jvm",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-linuxarm64/1.2.0-k2321-SNAPSHOT/runtime-linuxarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-linuxarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-linuxarm64/1.2.0-k2321-SNAPSHOT/runtime-linuxarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-linuxarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-linuxx64/1.2.0-k2321-SNAPSHOT/runtime-linuxx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-linuxx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-linuxx64/1.2.0-k2321-SNAPSHOT/runtime-linuxx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-linuxx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosarm64/1.2.0-k2321-SNAPSHOT/runtime-macosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosarm64/1.2.0-k2321-SNAPSHOT/runtime-macosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosarm64/1.2.0-k2321-SNAPSHOT/runtime-macosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosx64/1.2.0-k2321-SNAPSHOT/runtime-macosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosx64/1.2.0-k2321-SNAPSHOT/runtime-macosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-macosx64/1.2.0-k2321-SNAPSHOT/runtime-macosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-macosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-mingwx64/1.2.0-k2321-SNAPSHOT/runtime-mingwx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-mingwx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-mingwx64/1.2.0-k2321-SNAPSHOT/runtime-mingwx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-mingwx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosarm64/1.2.0-k2321-SNAPSHOT/runtime-tvosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosarm64/1.2.0-k2321-SNAPSHOT/runtime-tvosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosarm64/1.2.0-k2321-SNAPSHOT/runtime-tvosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-tvossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-tvossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-tvossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosx64/1.2.0-k2321-SNAPSHOT/runtime-tvosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosx64/1.2.0-k2321-SNAPSHOT/runtime-tvosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-tvosx64/1.2.0-k2321-SNAPSHOT/runtime-tvosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-tvosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-js/1.2.0-k2321-SNAPSHOT/runtime-wasm-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-js/1.2.0-k2321-SNAPSHOT/runtime-wasm-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-js/1.2.0-k2321-SNAPSHOT/runtime-wasm-js-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-js",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-wasi/1.2.0-k2321-SNAPSHOT/runtime-wasm-wasi-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-wasi",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-wasi/1.2.0-k2321-SNAPSHOT/runtime-wasm-wasi-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-wasi",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../runtime-wasm-wasi/1.2.0-k2321-SNAPSHOT/runtime-wasm-wasi-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-wasm-wasi",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm32/1.2.0-k2321-SNAPSHOT/runtime-watchosarm32-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm32",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm32/1.2.0-k2321-SNAPSHOT/runtime-watchosarm32-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm32",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm32/1.2.0-k2321-SNAPSHOT/runtime-watchosarm32-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm32",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm64/1.2.0-k2321-SNAPSHOT/runtime-watchosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm64/1.2.0-k2321-SNAPSHOT/runtime-watchosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosarm64/1.2.0-k2321-SNAPSHOT/runtime-watchosarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosdevicearm64/1.2.0-k2321-SNAPSHOT/runtime-watchosdevicearm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosdevicearm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosdevicearm64/1.2.0-k2321-SNAPSHOT/runtime-watchosdevicearm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosdevicearm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosdevicearm64/1.2.0-k2321-SNAPSHOT/runtime-watchosdevicearm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosdevicearm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-watchossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-watchossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchossimulatorarm64/1.2.0-k2321-SNAPSHOT/runtime-watchossimulatorarm64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchossimulatorarm64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosx64/1.2.0-k2321-SNAPSHOT/runtime-watchosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosx64/1.2.0-k2321-SNAPSHOT/runtime-watchosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../runtime-watchosx64/1.2.0-k2321-SNAPSHOT/runtime-watchosx64-1.2.0-k2321-SNAPSHOT.module",
+        "group": "dev.zacsweers.metro",
+        "module": "runtime-watchosx64",
+        "version": "1.2.0-k2321-SNAPSHOT"
+      }
+    }
+  ]
+}
