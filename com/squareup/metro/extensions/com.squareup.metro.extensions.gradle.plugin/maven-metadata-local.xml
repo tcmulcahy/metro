@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.squareup.metro.extensions</groupId>
+  <artifactId>com.squareup.metro.extensions.gradle.plugin</artifactId>
+  <versioning>
+    <latest>0.0.12-pr72-5d5d96f-k2321m-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.12-pr72-5d5d96f-k2321m-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20260611231900</lastUpdated>
+  </versioning>
+</metadata>
